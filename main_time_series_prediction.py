@@ -104,7 +104,7 @@ if __name__ == '__main__':
   parser.add_argument(
       '--learning_rate',
       default=0.01,
-      type=int)
+      type=float)
   parser.add_argument(
       '--task',
       choices=['classification','regression'],

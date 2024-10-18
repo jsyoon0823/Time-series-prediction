@@ -7,6 +7,8 @@ This directory contains implementations of basic time-series prediction
 using RNN, GRU, LSTM or Attention methods.
 To run the pipeline, simply run python3 -m main_time_series_prediction.py.
 
+Note: We recommend to do MinMax normalization on both input and output.
+
 ## Stages of time-series prediction framework:
 
 -   Load dataset (Google stocks data)
